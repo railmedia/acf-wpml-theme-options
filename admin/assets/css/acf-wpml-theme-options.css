@@ -1,0 +1,35 @@
+.acfwpml-main-container h1.wp-heading-inline {margin-bottom:20px;}
+.acfwpml-form-row {margin:0 0 10px 0;}
+.acfwpml-form-row .acfwpml-form-block .acfwpml-label {min-width:15%; display:inline-block; font-weight:bold;}
+.acfwpml-form-row .acfwpml-form-block .acfwpml-field { display:inline-block; min-width:15%;}
+.acfwpml-form-row .acfwpml-form-block .acfwpml-field input,
+.acfwpml-form-row .acfwpml-form-block .acfwpml-field select {width:100%;}
+.acfwpml-form-row .acfwpml-form-block .acfwpml-save-button {margin-top:20px;}
+.acfwpml-tab-wrapper .nav-tab {cursor:pointer;}
+.acfwpml-main-container .acfwpml-options-block h1 {margin:10px 0;}
+.acfwpml-main-container .acfwpml-options-block {display:none;}
+.acfwpml-main-container .acfwpml-active-block {display:block;}
+
+
+/* Preloaders */
+.consumerpreloader-large-dark {display:none; width:30px; height:30px; padding:0px; border-radius:100%; border:2px solid; border-top-color:rgba(0,0,0, 0.65); border-bottom-color:rgba(0,0,0, 0.65); border-left-color:rgba(0,0,0, 0.15); border-right-color:rgba(0,0,0, 0.15); -webkit-animation: consumerpreloader-large-dark 0.8s ease-in-out infinite alternate; animation: consumerpreloader-large-dark 0.8s ease-in-out infinite alternate;
+}
+@keyframes consumerpreloader-large-dark { from {transform: rotate(0deg);} to {transform: rotate(360deg);} }
+@-webkit-keyframes consumerpreloader-large-dark { from {-webkit-transform: rotate(0deg);} to {-webkit-transform: rotate(360deg);} }
+.blockOverlay .consumer-registration-preloader {text-align:center; display:block; position:absolute; right:0; width:100%;}
+/* End Preloaders */
+
+.switch {position: relative; display: inline-block; width: 42px; height: 24px;}
+.switch input {display:none;}
+
+/* The slider */
+.slider {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s;}
+.slider:before {position: absolute; content: ""; height: 19px; width: 19px; left: 4px; bottom: 3px; background-color: white; -webkit-transition: .4s; transition: .4s;}
+
+input:checked + .slider {background-color: #2196F3;}
+input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+input:checked + .slider:before {-webkit-transform: translateX(16px); -ms-transform: translateX(16px); transform: translateX(16px);}
+
+/* Rounded sliders */
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;} 
